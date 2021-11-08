@@ -3,17 +3,22 @@
     <head>
         <link rel="icon" type="image/jpg" href="C:\Users\Acer\OneDrive\Bureau\javascript\DOM-Manipulation\zero\images\logo.jpg" />
         <title>Login</title>
+        <link rel="stylesheet" href="C:\Users\Acer\OneDrive\Bureau\javascript\DOM-Manipulation\css\style.css">
     </head>
 
     <body>
-        <img src="C:\Users\Acer\OneDrive\Bureau\javascript\DOM-Manipulation\zero\images\header.png">
-        <h2>**Welcome to SMU**</h2>
+        <img id="image" src="C:\Users\Acer\OneDrive\Bureau\javascript\DOM-Manipulation\zero\images\header.png">
+        <h2 id="title">**Welcome to SMU**</h2>
         <form>
+            <div class= "input" >
             <label for="email">Email</label>
-            <input type="text" name="Email" />
+            <input type="text" name="Email" /> <br>
+            </div>
+            <div class="input">
             <label for="email">Password</label>
-            <input type="password" name="password" />
-            <input type="submit"/>
+            <input type="password" name="password" /> <br>
+        </div>
+            <input class="submit-button" type="submit"/>
 
         </form>
     </body>
