@@ -1,7 +1,7 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
-.submit-button {
+#submit-button {
     background-color: grey;
     font-weight: 200;
     margin-top: 40px;
@@ -13,7 +13,7 @@
     margin-left: 25%;
 
 }
-.submit-button:hover{ 
+#submit-button:hover{ 
     background-color: green;
     color: white;
     
